@@ -4,6 +4,7 @@ import Highlights from './festival-highlights/Highlights';
 import TicketInfo from './ticket-informations/TicketInfo';
 import { useRef } from 'react';
 import Subscription from './subscription/Subscription';
+import VendorDetails from '../vendor-application/VendorDetails';
 
 
 const LandingPage = () => {
@@ -20,8 +21,8 @@ const LandingPage = () => {
       </div>
       <Highlights/>
       <TicketInfo/>
+      <VendorDetails/>
       <Subscription/>
-
     </div>
   )
 }
