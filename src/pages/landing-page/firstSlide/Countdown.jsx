@@ -20,17 +20,17 @@ const CountDown = () => {
   return (
     <div className=''> 
 
-      <p className='flex gap-[32px] '>
-        <span className='bg-gradient-to-b from-white to-gray-200 rounded-xl font-bold w-[100px] h-[100px] border flex flex-col justify-center items-center'> <p>{days}</p>
+      <div className='flex gap-[2rem] s:gap-[1em] sm:gap-4 s:text-xs text-[#503112]'>
+        <span className='bg-gradient-to-b from-white to-gray-200 rounded-xl font-bold s:font-thin s:p-7 w-[100px] s:w-[56px] lg:w-[80px] h-[100px] s:h-[56px] lg:h-[80px] border flex flex-col justify-center items-center'> <p>{days}</p>
         <p>Days</p> </span>
-        <span className='bg-gradient-to-b from-white to-gray-200 rounded-xl font-bold w-[100px] h-[100px] border flex flex-col justify-center items-center'> <p>{hours}</p>
+        <span className='bg-gradient-to-b from-white to-gray-200 rounded-xl font-bold s:font-thin s:p-7 w-[100px] s:w-[56px] lg:w-[80px] h-[100px] s:h-[56px] lg:h-[80px] border flex flex-col justify-center items-center'> <p>{hours}</p>
         <p>Hours</p> </span>
-        <span className='bg-gradient-to-b from-white to-gray-200 rounded-xl font-bold w-[100px] h-[100px] border flex flex-col justify-center items-center'> <p>{minutes}</p>
+        <span className='bg-gradient-to-b from-white to-gray-200 rounded-xl font-bold s:font-thin s:p-7 w-[100px] s:w-[56px] lg:w-[80px] h-[100px] s:h-[56px] lg:h-[80px] border flex flex-col justify-center items-center'> <p>{minutes}</p>
         <p>Minutes</p></span>
-        <span className='bg-gradient-to-b from-white to-gray-200 rounded-xl font-bold w-[100px] h-[100px] border flex flex-col justify-center items-center'> <p>{seconds}</p>
+        <span className='bg-gradient-to-b from-white to-gray-200 rounded-xl font-bold s:font-thin s:p-7 w-[100px] s:w-[56px] lg:w-[80px] h-[100px] s:h-[56px] lg:h-[80px] border flex flex-col justify-center items-center'> <p>{seconds}</p>
         <p></p> secs</span>  
-        <span className='bg-gradient-to-b from-white to-gray-200 rounded-xl font-bold w-[100px] h-[100px] border flex justify-center items-center'> Left</span>  
-      </p>
+        <span className='bg-gradient-to-b from-white to-gray-200 rounded-xl font-bold s:font-thin s:p-7 w-[100px] s:w-[56px] lg:w-[80px] h-[100px] s:h-[56px] lg:h-[80px] border flex justify-center items-center'> Left</span>  
+      </div>
     </div>
   );
   }
