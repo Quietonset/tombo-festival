@@ -1,5 +1,4 @@
-import React, { forwardRef, useRef } from 'react'
-import React from 'react'
+import React, { forwardRef, useRef } from 'react';
 import Polygon1 from '/assets/Polygon 1.png';
 import Polygon2 from '/assets/Polygon 2.png';
 import Logo from '/assets/TomboLogo.png';

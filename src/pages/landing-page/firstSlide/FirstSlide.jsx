@@ -1,5 +1,5 @@
-import React, { forwardRef } from 'react'
-import React from 'react';
+import React, { forwardRef } from 'react';
+import { Link } from 'react-scroll';
 import PalmTombo1 from '/assets/Palm Tombo1.png';
 import Button from '../../../components/Button';
 import Frame from '/assets/Frame.png';
