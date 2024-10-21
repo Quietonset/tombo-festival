@@ -29,7 +29,7 @@ const SecondSlide = () => {
             <div className='text-9xl relative h-full mt-5 '>
                 <img className='absolute w-[97%] h-[90%]' src={Polygon1} alt="" />
                 <img className='w-[100%] h-[90%] -z-20' src={Polygon2} alt="" />
-                <img className='absolute top-[70px] right-[100px] -z-10' src={Logo} alt="" />
+                <img className='absolute top-[70px] right-[100px]' src={Logo} alt="" />
             </div>
             <img className='absolute right-0 bottom-0' src={Sparkle} alt="" />            
         </div>
