@@ -52,7 +52,7 @@ const TicketInfo = () => {
           </div>
         </div>
         {/* tickets info */}
-        <div className='w-full'>
+        <div className='w-full'  id='buyTicket'>
           <div className='flex flex-col gap-2.5'>
             <h3 className='font-semibold text-lg'>Purchase Ticket</h3>
             <p className='bg-transparent text-black w-full px-5 text-center mb-4 s:h-6 sm:h-6 md:h-2 lg:h-12 xl:h-12 flex justify-center items-center s:text-xs sm:text-xs md:text-sm lg:text-base xl:text-base'>Click on the preferred ticket to save a spot <span className='text-red-600'>*</span></p>
