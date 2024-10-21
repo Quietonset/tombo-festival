@@ -3,7 +3,8 @@ import { createRoot } from 'react-dom/client';
 import App from './App.jsx';
 import '../src/index.css';
 import { MenuProvider } from './context/MenuContext.jsx';
-import {initializeApp} from 'firebase/app'
+import {initializeApp} from 'firebase/app';
+
 import{
   collection,
   getFirestore,
