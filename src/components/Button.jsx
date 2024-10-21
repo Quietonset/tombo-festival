@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import Frame from '../assets/images/Frame.png'
+import Frame from '/assets/Frame.png'
 
 
 const Button = ({content, link, BtnStyle, image}) => {

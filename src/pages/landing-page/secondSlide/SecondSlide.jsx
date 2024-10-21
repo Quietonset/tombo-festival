@@ -1,9 +1,10 @@
 import React, { forwardRef, useRef } from 'react'
-import Polygon1 from '../../../assets/images/Polygon 1.png'
-import Polygon2 from '../../../assets/images/Polygon 2.png'
-import Logo from '../../../assets/images/TomboLogo.png'
-import Sparkle from '../../../assets/images/Sparkle.png'
-import SunImage from '../../../assets/images/SunImage.png'
+import React from 'react'
+import Polygon1 from '/assets/Polygon 1.png';
+import Polygon2 from '/assets/Polygon 2.png';
+import Logo from '/assets/TomboLogo.png';
+import Sparkle from '/assets/Sparkle.png';
+import SunImage from '/assets/SunImage.png';
 
 const SecondSlide = () => {
   

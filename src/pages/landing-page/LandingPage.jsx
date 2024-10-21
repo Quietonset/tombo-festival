@@ -3,6 +3,7 @@ import SecondSlide from './SecondSlide/SecondSlide';
 import Highlights from './festival-highlights/Highlights';
 import TicketInfo from './ticket-informations/TicketInfo';
 import { useRef } from 'react';
+import Subscription from './subscription/Subscription';
 
 
 const LandingPage = () => {
@@ -19,6 +20,8 @@ const LandingPage = () => {
       </div>
       <Highlights/>
       <TicketInfo/>
+      <Subscription/>
+
     </div>
   )
 }

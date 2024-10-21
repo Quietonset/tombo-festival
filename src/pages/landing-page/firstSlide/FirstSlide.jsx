@@ -1,16 +1,16 @@
 import React, { forwardRef } from 'react'
-import PalmTombo1 from '../../../assets/images/Palm Tombo1.png'
-import Button from '../../../components/Button'
-import Frame from '../../../assets/images/Frame.png'
-import CountDown from './Countdown'
-import CokeLogo from '../../../assets/images/CokeLogo.png'
-import McDonLogo from '../../../assets/images/McDonLogo.png'
-import KFCLogo from '../../../assets/images/KFCLogo.png'
-import ShopriteLogo from '../../../assets/images/ShopriteLogo.png'
-import PaystackLogo from '../../../assets/images/PaystackLogo.png'
-import BudweiserLogo from '../../../assets/images/BudweiserLogo.png'
-import RedBullLogo from '../../../assets/images/RedBullLogo.png'
-import { Link } from 'react-scroll'
+import React from 'react';
+import PalmTombo1 from '/assets/Palm Tombo1.png';
+import Button from '../../../components/Button';
+import Frame from '/assets/Frame.png';
+import CountDown from './Countdown';
+import CokeLogo from '/assets/CokeLogo.png';
+import McDonLogo from '/assets/McDonLogo.png';
+import KFCLogo from '/assets/KFCLogo.png';
+import ShopriteLogo from '/assets/ShopriteLogo.png';
+import PaystackLogo from '/assets/PaystackLogo.png';
+import BudweiserLogo from '/assets/BudweiserLogo.png';
+import RedBullLogo from '/assets/RedBullLogo.png';
 
 
 
