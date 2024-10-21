@@ -52,7 +52,7 @@ const TicketInfo = () => {
           </div>
         </div>
         {/* tickets info */}
-        <div className='w-full'>
+        <div className='w-full'  id='buyTicket'>
           <div className='flex flex-col gap-2.5'>
             <h3 className='font-semibold text-lg'>Purchase Ticket</h3>
             <div onClick={() => setIsEarlyBird(true)} className='s:border sm:border md:border flex justify-between items-center hover:bg-[#f5f5f5] px-5 py-[10px] rounded-lg hover:cursor-pointer'>
