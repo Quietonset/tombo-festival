@@ -4,6 +4,7 @@ import FirstSlide from './firstSlide/FirstSlide';
 import SecondSlide from './SecondSlide/SecondSlide';
 import Highlights from './festival-highlights/Highlights';
 import TicketInfo from './ticket-informations/TicketInfo';
+import Subscription from './subscription/Subscription';
 
 
 const LandingPage = () => {
@@ -19,6 +20,8 @@ const LandingPage = () => {
       </div>
       <Highlights/>
       <TicketInfo/>
+      <Subscription/>
+
     </div>
   )
 }
