@@ -1,10 +1,10 @@
 import React from 'react';
-import imageFood from '../../assets/images/pexels-cottonbro-5602502.jpg';
-import star from '../../assets/images/SunImage.png'
+import imageFood from '/assets/pexels-cottonbro-5602502.jpg';
+import star from '/assets/SunImage.png'
 
 const VendorDetails = () => {
   return (
-    <section className='flex h-screen p-8'>
+    <section className='flex h-screen p-8' id='vendorDetails'>
       <div className='h-full basis-2/4 '>
         <img src={imageFood} alt="cotton-bro" className='h-full w-full rounded-lg ' />
       </div>
