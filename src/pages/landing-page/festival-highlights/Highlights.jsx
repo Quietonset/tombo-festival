@@ -9,7 +9,7 @@ import SunImage from '/assets/SunImage.png'
 
 const Highlights = () => {
   return (
-    <div className='flex s:flex-col sm:flex-col md:flex-col lg:flex xl:flex s:pl-[18px] sm:pl-[30px] md:pl-[30px] lg:pl-[50px] xl:pl-[50px] py-10 mb-12 lg:mb-0 gap-y-16 lg:gap-y-0 mt-20 bg-[#f7faf9]'>
+    <div className='flex s:flex-col sm:flex-col md:flex-col lg:flex xl:flex s:pl-[18px] sm:pl-[30px] md:pl-[30px] lg:pl-[50px] xl:pl-[50px] py-10 mb-12 lg:mb-0 gap-y-16 lg:gap-y-0 mt-20 bg-[#f7faf9]' id='highlight'>
       {/* texts */}
       <div className='s:pl-0 sm:pl-0 md:pl-5 lg:p-20 s:w-[95%] sm:w-[95%] md:w-[95%] lg:w-[80%] xl:w-[80%] flex flex-col gap-10'>
         {/* header */}

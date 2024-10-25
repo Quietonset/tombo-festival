@@ -21,9 +21,9 @@ const TicketInfo = () => {
         <h1>ticket informations</h1>
       </div>
       {/* body */}
-      <div className='flex s:flex-col sm:flex-col md:flex lg:flex xl:flex s:mx-8 sm:mx-8 md:mx-8 lg:mx-20 xl:mx-20 py-2 gap-x-16'>
+      <div className='flex s:flex-col sm:flex-col md:flex-row lg:flex-row xl:flex-row s:mx-8 sm:mx-8 md:mx-8 lg:mx-20 xl:mx-20 py-2 gap-x-16'>
         {/* events info and map */}
-        <div className='w-full flex flex-col s:gap-12 sm:gap-12 md:gap-12 lg:gap-16 xl:gap-16'>
+        <div className='w-full flex flex-col s:gap-12 sm:gap-12 md:gap-12 lg:gap-16 xl:gap-16' id='info'>
           {/* event info */}
           <div className='flex flex-col s:gap-4 sm:gap-4 md:gap-4 lg:gap-8 xl:gap-8'>
             <h3 className='font-semibold text-lg mb-2'>Event Info</h3>
@@ -52,7 +52,7 @@ const TicketInfo = () => {
           </div>
         </div>
         {/* tickets info */}
-        <div className='w-full'  id='buyTicket'>
+        <div className='w-full' id='buyTicket'>
           <div className='flex flex-col gap-2.5'>
             <h3 className='font-semibold text-lg'>Purchase Ticket</h3>
             <p className='bg-transparent text-black w-full px-5 text-center mb-4 s:h-6 sm:h-6 md:h-2 lg:h-12 xl:h-12 flex justify-center items-center s:text-xs sm:text-xs md:text-sm lg:text-base xl:text-base'>Click on the preferred ticket to save a spot <span className='text-red-600'>*</span></p>

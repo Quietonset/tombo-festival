@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 const Logo = () => {
   return (
     <Link to='/'>
-      <img src={logo} alt="Tombo Festival 2024" className='h-20 object-cover'/>
+      <img src={logo} alt="Tombo Festival 2024" className='s:h-14 sm:h-14 md:h-16 lg:h-20 xl:h-20 object-cover'/>
     </Link>
   )
 }
